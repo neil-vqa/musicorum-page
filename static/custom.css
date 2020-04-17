@@ -250,7 +250,7 @@ form {
 
 aside[id="slidr-div-breadcrumbs"] {
   right: -10px !important;
-  top: 0 !important;
+  top: 50% !important;
 }
 
 aside[id="slidr-div-breadcrumbs"] .slidr-breadcrumbs li {
