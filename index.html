@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Musicorum - The Future of Headphones</title>
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+	<link rel="shortcut icon" href="./static/favicon.ico">
+	<link rel="stylesheet" href="./static/custom.css">
+	
+</head>
+<body>
+	<header>
+		<div class="brand">
+			<h4>The Product Inc.</h4>			
+		</div>
+		<nav id="top">
+			<ul class="nav-links">
+				<li><a href="#showroom" class="link">Showroom</a></li>
+				<li><a href="#specs" class="link">Specs</a></li>
+				<li><a href="#contact" class="link">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="redirect">
+			<i class="fab fa-facebook-square"></i>
+			<i class="fab fa-twitter-square"></i>
+			<i class="fab fa-google-plus-square"></i>
+		</div>
+		<div class="back-top">	
+			<a href="#top" title="Go to top"><i class="fas fa-arrow-circle-up"></i></a>
+		</div>
+	</header>
+	
+	<main>
+		<div class="section1" id="showroom">
+			<div class="text">
+				<h1>Musicorum</h1>
+				<h2>The headphones of the future.</h2>
+				<br>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+				<p>
+					The featured 3D model is taken from Sketchfab. All credit goes to the
+					modeler and proper owner. Site background by SVGBackgrounds.com
+				</p>
+				<button class="quick-order-btn" onclick="window.location.href= '#contact';">
+					Place your order now
+				</button>
+				<br>
+				<br>
+				<br>
+				<small>
+					(You may zoom and orbit the 3D model of the product on the right.)
+				</small>
+			</div>
+			<div class="model">
+			</div>
+		</div>
+		<div class="section2" id="specs">
+			<div class="photo" data-aos="fade-right">
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<div class="slide-content fade">
+				  <img src="./static/pics/pic1.png" style="width:100%">
+				</div>
+				<div class="slide-content fade">
+				  <img src="./static/pics/pic2.png" style="width:100%">
+				</div>
+				<div class="slide-content fade">
+				  <img src="./static/pics/pic3.png" style="width:100%">
+				</div>
+				<div class="slide-content fade">
+				  <img src="./static/pics/pic4.png" style="width:100%">
+				</div>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<div class="details" data-aos="fade-up" data-aos-delay="700">
+				<div id="slidr-div" style="dislay: block">
+					<div data-slidr="first">
+						<h1>Product details</h1>
+						<br>
+						<p class="content-det">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+						<p class="content-det">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+						<p class="content-det">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+						<p class="content-det">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+					</div>
+					<div data-slidr="second">
+						<h1>Lorem details</h1>
+						<br>
+						<p class="content-det">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+						<p class="content-det">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+						<p class="content-det">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+					</div>
+					<div data-slidr="third">
+						<h1>Ipsum details</h1>
+						<br>
+						<p class="content-det">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+						<p class="content-det">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+						<p class="content-det">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+					</div>
+				</div>			
+			</div>			
+		</div>
+		<div class="section3" id="contact">
+			<div class="form" data-aos="fade-up">
+				<h1>Place your order</h1>
+				<p>You will be contacted immediately by our sales representative through email for your order and/or inquiries.</p>
+				<form name="order">
+					<input type="text" name="nameField" placeholder="Name"/>
+					<br>
+					<input type="email" name="emailField" placeholder="Email"/>
+					<br>
+					<input type="text" name="inquiryField" placeholder="Short descriptive subject of purpose"/>
+					<br>
+					<button>Submit</button>
+				</form>			
+			</div>
+			<div class="store" data-aos="fade-up">
+				<h1>Store</h1>
+				<p>You may also visit our physical store.</p>
+				<div id="store-location" style="width: 100%; height: 60vh;"></div>
+			</div>			
+		</div>	
+	</main>
+	
+	<footer>
+		<div><h5>nvqa.business@gmail.com | NV Alino | 2020</h5></div>
+		<div><h5>This is a demo product page.</h5></div>			
+	</footer>
+	
+	<script src="https://kit.fontawesome.com/9b56a9cf19.js" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" type="text/javascript"></script>
+	<script src="./static/three.min.js"></script>
+	<script src="./static/GLTFLoader.js"></script>
+	<script src="./static/orbitcontrol.js" type="text/javascript"></script>
+	<script src="./static/app3d.js" type="text/javascript"></script>
+	<script src="./static/appSlider.js" type="text/javascript"></script>
+	<script src="./static/slidr.min.js" type="text/javascript"></script>
+	<script src="./static/store.js" type="text/javascript"></script>
+
+	<script>
+	  AOS.init({
+	  	duration: 800,
+	  	mirror: true
+	  });
+	</script>
+	<script type="text/javascript">
+		slidr.create('slidr-div', {breadcrumbs: true, controls: 'none', direction: 'vertical',}).start();
+	</script>
+
+</body>
+</html>
