@@ -177,9 +177,12 @@ nav {
 	margin:  0px 0px 30px 0px;
 }
 
-form > input {
+form > input, textarea {
 	width: 100%;
 	margin:  0px 0px 25px 0px;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
 }
 
 form > button {
@@ -282,7 +285,7 @@ aside[id="slidr-div-breadcrumbs"] .slidr-breadcrumbs li.active {
 	padding: 0px 15px 0px 0px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 780px) {
 	header {
 		display: flex;
 		flex-direction: column;
