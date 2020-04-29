@@ -152,6 +152,7 @@ nav {
 
 .details {
 	height: 90vh;
+	width: auto;
 }
 
 .section3 {
@@ -290,12 +291,22 @@ aside[id="slidr-div-breadcrumbs"] .slidr-breadcrumbs li.active {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin: 30px;
+		margin: 20px;
+	}
+	
+	.link {
+		font-size: 18px;
+		padding: 5px 10px;	
+	}
+	
+	.back-top {
+		bottom: 5px;
+		right: 5px;
 	}
 
 	.section2, .section3 {
 		display: inline-block;
-		margin: 25px;
+		margin: 20px;
 		
 	}
 	
@@ -305,6 +316,7 @@ aside[id="slidr-div-breadcrumbs"] .slidr-breadcrumbs li.active {
 	
 	.details {
 		overflow-x: scroll;
+		width: 100%;
 	}
 	
 	.text {
